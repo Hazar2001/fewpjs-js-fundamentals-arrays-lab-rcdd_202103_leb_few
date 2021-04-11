@@ -22,7 +22,7 @@ describe('index.js', function () {
 
     describe('removeFirst()', function () {
       it('removes the First pet from the pets array', function () {
-        expect(removeFirst).to.have.ordered.members([ "Garfield"]).and.to.not.include('Milo');
+        expect(removeFirst).to.have.ordered.members(["Otis", "Garfield"]).and.to.not.include('Milo');
       });
     });
   });
